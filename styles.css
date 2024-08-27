@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: cornflowerblue;
+}
+
+#sol-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    z-index: 1;
+}
+
+.nuage-image {
+    position: fixed;
+    width: auto;
+    height: 12%;
+    object-fit: cover;
+    z-index: -1
+}
+
+#nuage1-image {
+    top: 20%;
+    left: 12%;
+}
+
+#nuage2-image {
+    top: 30%;
+    left: 73%;
+}
+
+#nuage3-image {
+    top: 10%;
+    left: 55%;
+}
+
+#nuage4-image {
+    top: 44%;
+    left: 30%;
+}
+
+.container-skin-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.button-skin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.skin-btn {
+    display: flex;
+    width: 95px;
+    height: 95px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#skin-lapin-img {
+    width: auto;
+    height: 80px;
+}
+
+#skin-poule-img {
+    width: auto;
+    height: 80px;
+}
+
+#skin-escargot-img {
+    width: auto;
+    height: 80px;
+}
+
+.skin {
+    position: absolute;
+    width: auto;
+    height: 9%;
+    z-index: 1;
+}
+
+#lapin-image {
+    display: block;
+    top: 520px;
+    left: 200px;
+}
+
+#poule-image {
+    display: none;
+    top: 520px;
+    left: 200px;
+}
+
+#escargot-image {
+    display: none;
+    top: 520px;
+    left: 200px;
+}
+
+#distributeur-image {
+    position: absolute;
+    right: 0px;
+    height: 30%;
+    z-index: 1
+}
+
+#buisson-image {
+    position: absolute;
+    right: 0px;
+    height: 5%;
+}
+
+#score-text {
+    color: white;
+}
+
+#game_over-image {
+    display: none;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: 100
+}
+
+#start-text {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 100
+}
+
+#start-fleche-text, #start-espace-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    z-index: 100
+}

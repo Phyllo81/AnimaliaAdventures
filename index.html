@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <img id="sol-image" src="./assets/sol.png" alt="sol">
+
+        <img class="nuage-image" id="nuage1-image" src="./assets/nuage.png" alt="nuage1">
+        <img class="nuage-image" id="nuage2-image" src="./assets/nuage.png" alt="nuage2">
+        <img class="nuage-image" id="nuage3-image" src="./assets/nuage.png" alt="nuage3">
+        <img class="nuage-image" id="nuage4-image" src="./assets/nuage.png" alt="nuage4">
+
+        <div class="container-skin-btn">
+            <div class="button-skin">
+                <a class="skin-btn" href="#" onclick="setSkin('lapin')"><img id="skin-lapin-img" src="./assets/lapin.png" alt="lapin-btn"></a>
+                <a class="skin-btn" href="#" onclick="setSkin('poule')"><img id="skin-poule-img" src="./assets/poule.png" alt="poule-btn"></a>
+                <a class="skin-btn" href="#" onclick="setSkin('escargot')"><img id="skin-escargot-img" src="./assets/escargot.png" alt="escargot-btn"></a>
+            </div>
+        </div>
+
+        <img class="skin" id="lapin-image" src="./assets/lapin.png" alt="lapin">
+        <img class="skin" id="poule-image" src="./assets/poule.png" alt="poule">
+        <img class="skin" id="escargot-image" src="./assets/escargot.png" alt="escargot">
+
+        <img id="distributeur-image" src="./assets/distributeur.png" alt="distributeur">
+        <img id="buisson-image" src="./assets/buisson.png" alt="buisson">
+
+        <h2 id="score-text">Score » <span id="score-number">0</span></h2>
+
+        <img id="game_over-image" src="./assets/game_over.png" alt="game_over">
+
+        <h1 id="start-text"><span id="start-fleche-text">▲</span> ou <span id="start-espace-text">Espace</span></h1>
+
+        <script src="./js/skins.js"></script>
+        <script src="./js/obstacle.js"></script>
+    </body>
+</html>
